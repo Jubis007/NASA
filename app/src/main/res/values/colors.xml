@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="marvel_red">#ED1D24</color>
+    <color name="marvel_red_dark">#9F0013</color>
+    <color name="marvel_blue">#0055A4</color>
+    <color name="marvel_blue_dark">#003366</color>
 </resources>

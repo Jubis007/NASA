@@ -3,7 +3,20 @@
     <style name="Base.Theme.RandomPets" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/marvel_red</item>
+        <item name="colorPrimaryVariant">@color/marvel_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/marvel_blue</item>
+        <item name="colorSecondaryVariant">@color/marvel_blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
     </style>
 
     <style name="Theme.RandomPets" parent="Base.Theme.RandomPets" />
+
+    <style name="CharacterNameText" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/bangers</item>
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>
